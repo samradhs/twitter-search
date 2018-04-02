@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ViewMatch">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/bookmark_cont"
+        style="@style/ViewMatch"
+        android:paddingTop="@dimen/margin_large"
+        android:paddingStart="@dimen/margin_small"
+        android:paddingEnd="@dimen/margin_small"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/placeholder"
+        style="@style/ViewMatch"
+        android:text="@string/no_bookmarks"
+        android:textSize="@dimen/text_size_medium"
+        android:gravity="center"/>
+
+</FrameLayout>

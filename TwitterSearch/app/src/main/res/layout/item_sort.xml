@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+    <TextView
+        android:id="@+id/sort_by"
+        style="@style/ViewMatch"
+        android:textSize="@dimen/text_size_small"
+        android:text="@string/sort_by"
+        android:textColor="@color/colorAccent"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/sort_like"
+        style="@style/ViewMatch"
+        android:textSize="@dimen/text_size_small"
+        android:text="@string/sort_like"
+        android:textColor="@color/sort_text_states"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/sort_retweet"
+        style="@style/ViewMatch"
+        android:textSize="@dimen/text_size_small"
+        android:text="@string/sort_retweet"
+        android:textColor="@color/sort_text_states"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+</LinearLayout>

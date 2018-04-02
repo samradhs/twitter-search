@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ViewMatch">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/tweet_cont"
+        style="@style/ViewMatch"
+        android:paddingTop="@dimen/margin_large"
+        android:paddingStart="@dimen/margin_small"
+        android:paddingEnd="@dimen/margin_small"
+        android:clipToPadding="false"
+        android:overScrollMode="never"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:minWidth="50dp"
+        android:layout_gravity="center"/>
+
+</FrameLayout>

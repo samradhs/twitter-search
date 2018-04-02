@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ViewMatchWidth"
+    android:padding="@dimen/margin_small">
+
+    <TextView
+        android:id="@+id/tweet_text"
+        style="@style/ViewWrap"
+        android:textSize="@dimen/text_size_medium"/>
+
+    <TextView
+        android:id="@+id/re_tweet_text"
+        style="@style/ViewWrap"
+        android:textSize="@dimen/text_size_small"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_below="@id/tweet_text"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/like_text"
+        style="@style/ViewWrap"
+        android:textSize="@dimen/text_size_small"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:layout_below="@id/tweet_text"
+        android:layout_toStartOf="@id/re_tweet_text"/>
+
+    <TextView
+        android:id="@+id/add_bookmark"
+        style="@style/ViewWrap"
+        android:textSize="@dimen/text_size_small"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_below="@id/tweet_text"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:text="@string/btn_add_bookmark"
+        android:visibility="gone"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/light_grey"
+        android:layout_below="@id/like_text"
+        android:layout_marginTop="@dimen/margin_small"/>
+
+</RelativeLayout>

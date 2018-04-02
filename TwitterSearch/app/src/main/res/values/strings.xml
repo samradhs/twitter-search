@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">TwitterSearch</string>
+    <string name="tweet_loading_text">Fetching latest tweets for you!!</string>
+    <string name="tweet_like_text">Likes: %1$d</string>
+    <string name="tweet_retweet_text">Re-tweets: %1$d</string>
+    <string name="no_bookmarks">No bookmarks present</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_bookmark">Bookmarks</string>
+
+    <string name="btn_add_bookmark">Add Bookmark</string>
+    <string name="btn_remove_bookmark">Remove Bookmark</string>
+
+    <string name="toast_internet_off">Please turn on Internet</string>
+    <string name="toast_already_bookmark">This tweet is already bookmarked</string>
+    <string name="toast_bookmarked">Tweet bookmarked successfully</string>
+    <string name="toast_sorted_by_like">Tweets are sorted by likes</string>
+    <string name="toast_sorted_by_retweets">Tweets are sorted by retweets</string>
+
+    <string name="sort_by">Sort By:</string>
+    <string name="sort_like">Likes</string>
+    <string name="sort_retweet">Re-Tweets</string>
+
+</resources>
